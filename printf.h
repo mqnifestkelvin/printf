@@ -57,7 +57,7 @@ typedef struct parameters
 	unsigned int precision;
 	unsigned int h_modifier		:1;
 	unsigned int l_modifier		:1;
-} paramas_t;
+} params_t;
 
 /**
  * struct specifier - Struct token
@@ -69,7 +69,7 @@ typedef struct parameters
 typedef struct specifier
 {
 	char *specifier;
-	int (*f)(va_list, paramas_t *);
+	int (*f)(va_list, params_t *);
 } specifier_t;
 
 /* put.c prototypes */
@@ -84,9 +84,9 @@ int print_percentage(va_list ap, params_t *params);
 int print_S(va_list ap, params_t *params);
 
 /* number.c prototypes */
-char *convert(long int num, int base, int flags, params_t, *params);
+char *convert(long int num, int base, int flags, params_t *params);
 int print_unsigned(va_list ap, params_t *params);
-itn print_address(va_list ap, params_t *params);
+int print_address(va_list ap, params_t *params);
 
 /* specifier.c prototypes */
 int (*get_specifier(char *s))(va_list ap, params_t *params);
@@ -99,7 +99,7 @@ char *get_width(char *s, params_t *params, va_list ap);
 int print_hex(va_list ap, params_t *params);
 int print_HEX(char *s, va_list ap, params_t *params);
 int print_binary(va_list ap, params_t *params);
-int print_octal(va_list ap, paramas_t *params);
+int print_octal(va_list ap, params_t *params);
 
 /* simple_printers.c prototypes */
 int print_from_to(char *start, char *stop, char *except);
@@ -120,6 +120,6 @@ void init_params(params_t *params_t, va_list ap);
 char *get_precision(char *p, params_t *params, va_list ap);
 
 /* _printf.c prototype */
-int _printf(connst char *format, ...);
+int _printf(const char *format, ...);
 
 #endif
