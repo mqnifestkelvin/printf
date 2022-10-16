@@ -1,6 +1,6 @@
 # This is an implementation of printf() function in in C language implemented solely with the use of C programming language.
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/narnat/printf)
+*****************************************************************************************
 
 ## Project Overview
 **_printf()** - This is an ALX-SE (Software Engineering) collaborative project. The objective of this project is to test our over understanding and its implementation into building a custom made version of the printf C fuction in the standard I/O library.
@@ -13,14 +13,13 @@ Table of Contents
    * [Project Requirements](#project-requirements)
    * [Allowed Functions and Macros](#allowed-functions-and-macros)
    * [Compilation Instructions](#compilation-instructions)
-   * [Available Format Specifiers](#available-format-specifier)
+   * [Available Format Specifiers](#available-format-specifiers)
    * [Task to be Accomplished](#task-to-be-accomplished)
    * [Installation Instruction](#installation-instructions)
-   * [Code Test](#Code-Test)
-   * [Authours](#Authours)
+   * [Authors](#authors)
 <!--te-->
 
-*******************************************************************
+*****************************************************************************************
 ## Project  Requirements
 - Allowed editors: vi, vim, emacs
 - All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -125,6 +124,9 @@ Unknown:[%r]
 Unknown:[%r]
 arthur@ubuntu:~/printf$
 ```
+
+*****************************************************************************************
+
 ## Available Format Specifiers
 Function| Function Description | Format Specifier
 --- | --- | ---
@@ -141,6 +143,62 @@ Function| Function Description | Format Specifier
 `print_address` | This function prints a pointer memory address | `%p`
 `print_rev` | This function prints any string passed in reverse | `%r`
 `print_rot13` | This function prints strings in rot13 format | `%R`
+
 *****************************************************************************************
+## Task to be Accomplished
+<details>
+<summary>
+Click to Collapse
+</summary>
+<ul>
+<li>-)- 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life <i>mandatory</i>
+</li><li> - 1. Education is when you read the fine print. Experience is what you get if you don't <i>mandatory</i>
+</li><li> - 2. Just because it's in print doesn't mean it's the gospel  <i>mandatory</i>
+</li><li> - 3. With a face like mine, I do better in print <i>#advanced</i>
+</li><li> - 4. What one has not experienced, one will never understand in print <i>#advanced</i>
+</li><li> - 5. Nothing in fine print is ever good news <i>#advanced</i>
+</li><li> - 6. My weakness is wearing too much leopard print <i>#advanced</i>
+</li><li> - 7. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print <i>#advanced</i>
+</li><li> - 8. The big print gives and the small print takes away <i>#advanced</i>
+</li><li> - 9. Sarcasm is lost in print <i>#advanced</i>
+</li><li> - 10. Print some money and give it to us for the rain forests <i>#advanced</i>
+</li><li> - 11. The negative is the equivalent of the composer's score, and the print the performance <i>#advanced</i>
+</li><li> - 12. It's depressing when you're still around and your albums are out of print <i>#advanced</i>
+</li><li> - 13. Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection <i>#advanced</i>
+</li><li> - 14. Print is the sharpest and the strongest weapon of our party <i>#advanced</i>
+</li><li> - 15. The flood of print has turned reading into a process of gulping rather than savoring <i>#advanced</i>
+</li><li> - 16. All of the above functionality should work flawlessly <i>#advanced</i>
+</ul>
+</details>
+
+*****************************************************************************************
+
+## Installation Instruction
+To be able to use this custom build `_printf` function, the only library requirement is the `<unistd.h>` library. Procedure for usage commences by first cloning this repo on to your local machine using the command below:
+```
+ $ git clone https://github.com/mqnifestkelvin/printf.git
+```
+As soon as cloning is completed, navigate into the printf directory using the command below:
+```
+ $ cd printf
+```
+Compilation of your code can be done using the command:
+```
+ $ gcc *.c code_of_interest_source_file -o output 
+```
+Another method is to use of the printf function as a static library by making use of the command:
+```
+gcc *.c
+````
+```
+ar -rc libprintf.a *.o
+```
+```
+ranlib liball.a
+```
+*****************************************************************************************
+*****************************************************************************************
+*****************************************************************************************
+## Authors
 This repository contains the implementation of printf C function
 Done by MaryIshola and Manifest
