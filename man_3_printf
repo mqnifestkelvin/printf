@@ -1,13 +1,13 @@
-_printf
-NAME
-	_printf - format and print data
-
+.TH man 1 "16 October 2022" "_printf function"
+.SH NAME
+.B _printf - format and print data
+-
 .SH SYNOPSIS
-	_printf FORMAT [ARGUEMENTS]...
-	_printf OPTIONS
+_printf FORMAT [ARGUEMENTS]...
+_printf OPTIONS
 - This is an ALX-SE (Software Engineering) course project. The objective of this project is to write a custom version of the printf function 
 .SH DESCRIPTION
-	Print ARGUMENT(s) according to the FORMAT passed or specified according to the option/format specifier.
+Print ARGUMENT(s) according to the FORMAT passed or specified according to the option/format specifier.
 .SH OPTIONS
 .B %c
 - Prints character
