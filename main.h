@@ -1,5 +1,5 @@
-#ifndef _PRINT_H
-#define _PRINT_H
+#ifndef _MAIN_H
+#define _MAIN_H
 
 /* Standard C library */
 #include <stdarg.h>
