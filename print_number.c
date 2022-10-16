@@ -1,3 +1,4 @@
+#include "printf.h"
 
 /**
  * _isdigit - checks if character is digit
