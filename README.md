@@ -8,15 +8,15 @@
 Table of Contents
 =================
 <!--ts-->
-   * [Project Overview](#project overview)
-   * [Table of Contents](#table of contents)
-   * [Project Requirements](#project requirements)
-   * [Allowed Functions and Macros](#allowed functions and micros)
-   * [Compilation Instructions](#compilation instructions)
-   * [Available Format Specifiers](#available format specifier)
-   * [Task to be Accomplished](#task to be accomplished)
-   * [Installation Instruction](#installation instructions)
-   * [Code Test](#Code Test)
+   * [Project Overview](#project-overview)
+   * [Table of Contents](#table-of-contents)
+   * [Project Requirements](#project-requirements)
+   * [Allowed Functions and Macros](#allowed-functions-and-micros)
+   * [Compilation Instructions](#compilation-instructions)
+   * [Available Format Specifiers](#available-format-specifier)
+   * [Task to be Accomplished](#task-to-be-accomplished)
+   * [Installation Instruction](#installation-instructions)
+   * [Code Test](#Code-Test)
    * [Authours](#Authours)
 <!--te-->
 This repository contains the implementation of printf C function
