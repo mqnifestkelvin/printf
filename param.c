@@ -1,4 +1,4 @@
-#include "printf.h"
+#include "main.h"
 
 /**
  * init_params - clears struct fields and rese5 the buffer

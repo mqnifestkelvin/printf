@@ -1,4 +1,4 @@
-#include "printf.h"
+#include "main.h"
 
 /**
  * get_precision - gets the precision from the format string
