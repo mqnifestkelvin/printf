@@ -130,7 +130,7 @@ Function| Function Description | Format Specifier
 --- | --- | ---
 `print_char`| This function prints a character | `%c`
 `print_percent` | This function prints a percentage symbol `%` | `%%`
-`print_int` | This function prints integers | `%d` and `%i
+`print_int` | This function prints integers | `%d` and `%i`
 `print_string` | This function prints a strive | `%s`
 `print_binary` | This function prints binary numbers | `%b`
 `print_octal` | This function prints numbers in base 8 | `%o`
