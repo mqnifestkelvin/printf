@@ -128,19 +128,19 @@ arthur@ubuntu:~/printf$
 ## Available Format Specifiers
 Function| Function Description | Format Specifier
 --- | --- | ---
-- `print_char`| This function prints a character | `%c`
-- `print_percent` | This function prints a percentage symbol `%` | `%%`
-- `print_int` | This function prints integers | `%d` and `%i
-- `print_string` | This function prints a strive | `%s`
-- `print_binary` | This function prints binary numbers | `%b`
-- `print_octal` | This function prints numbers in base 8 | `%o`
-- `print_hex` | This function prints hexaldecimal numbers in lower case | `%x`
-- `print_HEX` | This function prints hexaldecimal numbers in upper case | `%X`
-- `print_unsigned` | This function prints unsigned integers | `%u`
-- `print_S | This function prints hex value of non visible characters | `%S`
-- `print_address` | This function prints a pointer memory address | `%p`
-- `print_rev` | This function prints any string passed in reverse | `%r`
-- `print_rot13` | This function prints strings in rot13 format | `%R`
+`print_char`| This function prints a character | `%c`
+`print_percent` | This function prints a percentage symbol `%` | `%%`
+`print_int` | This function prints integers | `%d` and `%i
+`print_string` | This function prints a strive | `%s`
+`print_binary` | This function prints binary numbers | `%b`
+`print_octal` | This function prints numbers in base 8 | `%o`
+`print_hex` | This function prints hexaldecimal numbers in lower case | `%x`
+`print_HEX` | This function prints hexaldecimal numbers in upper case | `%X`
+`print_unsigned` | This function prints unsigned integers | `%u`
+`print_S` | This function prints hex value of non visible characters | `%S`
+`print_address` | This function prints a pointer memory address | `%p`
+`print_rev` | This function prints any string passed in reverse | `%r`
+`print_rot13` | This function prints strings in rot13 format | `%R`
 *****************************************************************************************
 This repository contains the implementation of printf C function
 Done by MaryIshola and Manifest
