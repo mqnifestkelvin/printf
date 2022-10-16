@@ -11,7 +11,7 @@ Table of Contents
    * [Project Overview](#project-overview)
    * [Table of Contents](#table-of-contents)
    * [Project Requirements](#project-requirements)
-   * [Allowed Functions and Macros](#allowed-functions-and-micros)
+   * [Allowed Functions and Macros](#allowed-functions-and-macros)
    * [Compilation Instructions](#compilation-instructions)
    * [Available Format Specifiers](#available-format-specifier)
    * [Task to be Accomplished](#task-to-be-accomplished)
