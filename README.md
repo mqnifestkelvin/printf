@@ -1,10 +1,9 @@
-# This is an implementation of printf() function in in C language implemented solely with the use of C programming language.
+# This is an implementation of printf() function in C language, implemented solely with the use of C programming language.
 
 *****************************************************************************************
 
 ## Project Overview
-**_printf()** - This is an ALX-SE (Software Engineering) collaborative project. The objective of this project is to test our over understanding and its implementation into building a custom made version of the printf C fuction in the standard I/O library.
-1:
+**_printf()** - This is an ALX-SE (Software Engineering) collaborative project. The objective of this project is to test our overall understanding and implementation into building a custom made version of the printf C fuction in the standard I/O library
 Table of Contents
 =================
 <!--ts-->
