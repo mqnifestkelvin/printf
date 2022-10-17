@@ -80,7 +80,7 @@ int _putchar(int c);
 int print_char(va_list ap, params_t *params);
 int print_int(va_list ap, params_t *params);
 int print_string(va_list ap, params_t *params);
-int print_percentage(va_list ap, params_t *params);
+int print_percent(va_list ap, params_t *params);
 int print_S(va_list ap, params_t *params);
 
 /* number.c prototypes */
@@ -97,7 +97,7 @@ char *get_width(char *s, params_t *params, va_list ap);
 
 /* convert_number.c prototypes */
 int print_hex(va_list ap, params_t *params);
-int print_HEX(char *s, va_list ap, params_t *params);
+int print_HEX(va_list ap, params_t *params);
 int print_binary(va_list ap, params_t *params);
 int print_octal(va_list ap, params_t *params);
 
@@ -110,7 +110,7 @@ int print_rot13(va_list ap, params_t *params);
 int _isdigit(int c);
 int _strlen(char *s);
 int print_number(char *str, params_t *params);
-int print_number_right_shift(char *str, params_t params);
+int print_number_right_shift(char *str, params_t *params);
 int print_number_left_shift(char *str, params_t *params);
 
 /* params.c prototype */

@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * get_specifier - finds the format func
+ * get_specifier - finds the format fun
+ * c
  * @s: the format string
  *
  * Return: the number of bytes printed
@@ -112,8 +113,11 @@ int get_modifier(char *s, params_t *params)
 
 /**
  * get_width - gets the width from the format string
+ *
  * @s: the format string
+ *
  * @params: the parameters struct
+ *
  * @ap: the argument pointer
  *
  * Return: new pointer
@@ -133,6 +137,6 @@ char *get_width(char *s, params_t *params, va_list ap)
 		while (_isdigit(*s))
 			d = d * 10 + (*s++ - '0');
 	}
-	params->width = d;
+	params->width_flag = d;
 	return (s);
 }
